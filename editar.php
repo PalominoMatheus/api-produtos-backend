@@ -24,7 +24,7 @@ if($dados){
     if($edit_produto->rowCount()){
         $response = [
             "erro" => false,
-            "mensagem" => "Produto editado com sucesso!",
+            "mensagem" => "Produto editado com sucesso",
         ];
     }else{
         $response = [
